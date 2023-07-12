@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+}
+
+.collapse {
+    justify-content: center !important;
+    }
+    
+    .nav-link {
+        color: #fff !important;
+        font-size: 20px !important;
+   
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #F86F03;
+        height: 676px;
+    }
+
+    .title1 {
+        position: absolute;
+      padding-top: 285px;
+        color: #fff;
+        padding-left: 80px;
+        font-size: 125px;
+        
+        font-family: 'Montserrat', sans-serif;
+        }
+
+        .para1 {
+            position: absolute;
+            padding-top: 430px;
+            color: #fff;
+            padding-left: 80px;
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .button1 {
+            width: 170px;
+            background-color: #F86F03;
+            color: #fff;
+            height: 67px;
+            width: 325px;
+            left: 80px;
+            margin-top: 540px;
+            position: absolute;
+            }
+
+            .tour1 {
+                background-color: #F86F03;
+                height: 725px;
+                text-align:center;
+               }
+
+               .tour2{
+                background-color: black;
+                height: 570px;
+                text-align:center;
+               }
+
+               .tour3{
+                background-color: black;
+                height: 975px;
+                text-align:center;
+               }
+
+            .ram {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content:space-evenly;
+                align-content: center;
+                }
+
+                .midbody {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    height: 1968px;
+                  
+                    }
+
+                    .photo1 {
+                        height: 984px;
+                        width: 50%;
+                        
+                    }
+
+                    .new1{
+                        height: 984px;
+                        width: 100%;
+                    }
+
+                    .photo2 {
+                        width: 50%;
+                        background-color: #F86F03;
+                        height: 984px;
+                        text-align: center;
+                        align-content: center;
+                        display: grid;
+                        justify-content: center;
+               
+                    }
+
+                    .photo3 {
+                        width: 50%;
+                        height: 984px;
+                        background-color: #F86F03;
+                        align-content: center;
+                        display: grid;
+                        justify-content: center;
+                        text-align: center;
+                    }
+
+                    .photo4 {
+                        width: 50%;
+                        height: 984px;
+                        
+                    }
+
+                    .baz{
+                      margin-left: 175px;
+                    }
+
+                    .herbert {
+                        height: 968px;
+                         text-align: center;
+                 
+                         background-image:url(./images/hero2.jpg);
+                         background-size: 100% 100%;
+                         background-position: center;
+                         
+                        }
+
+                        .herberta {
+                            height:593px;
+                            text-align: center;
+                            background-color: #F86F03;
+                            }
+
+                            .footer {
+                                height: 307px;
+                                background-color: black;
+                                display: flex;
+                             flex-direction: row;
+                             flex-wrap: wrap;
+                            }
+                    
+                            .a{
+                                width: 40%;
+                               
+                            }
+                    
+                            .b{
+                                width: 20%;
+                                
+                                text-align: center;
+                            }
+                            .c{
+                                width: 20%;
+                                
+                                text-align: center;
+                            }
+                    
+                            .d{
+                                width: 20%;
+                                
+                                text-align: center;
+                            }
+                     p {
+                        color: #fff;
+                     }
+
+                     @media screen and (min-width:651px) and (max-width: 967px) {
+
+                        .footer {
+                            height: 332px;
+                        }
+
+                     }
+
+                     @media (max-width:650px) {
+                        .footer {
+                           height: 555px;
+                        }
+
+                        .a{
+                            width: 100%;
+                        }
+
+                        .b{
+                            width: 30%;
+                        }
+
+                        .c{
+                            width: 30%;
+                        }
+
+                        .d{
+                            width: 30%;
+                        }
+                       
+                       }
+
+                     @media (max-width:775px) {
+                     input {
+                        width: 50% !important;
+                        margin-top: 10px !important;
+                     }
+                    
+                    }
+
+                    @media (max-width:652px) {
+                        .midbody {
+                            height: 400px;
+                       
+                            }
+
+                            .photo1 {
+                                height: 984px;
+                                width: 100%;
+                                
+                            }
+
+                            .photo2 {
+                                height: 470px;
+                                width: 100%;
+                               text-align: center;
+                               align-items: center !important;
+                            }
+
+                            .baz {
+                                margin-left: 85px;
+                            }
+
+            
+
+                            .photo3 {
+                                height: 385px;
+                                width: 100%;
+                                text-align: center;
+                               align-items: center !important;
+                                
+                            }
+
+                            .photo4 {
+                                height: 984px;
+                                width: 100%;
+                                
+                            }
+
+                    }
+
+                    @media screen and (min-width:653px) and (max-width: 880px) {
+                        .tour3{
+                            margin-top:0px !important;
+                            height: 653px;
+                        }
+                    }
+
+                    
+                    @media screen and (min-width:593px) and (max-width: 652px) {
+                        .tour3{
+                            margin-top: 2305px;
+                            height: 1169px;
+                        }
+                    }
+
+
+                   @media screen and (min-width:593px) and (max-width: 880px) {
+                    .tour1 {
+                   
+                        height: 1227px;
+                    }
+                    
+                    .tour2 {
+              
+                        height:950px;
+                    }
+
+                    }
+
+
+
+                 @media (max-width:592px) {
+                    .tour1 {
+                        margin-top: -194px;
+                        height: 1696px;
+                    }
+
+                    .tour2 {
+              
+                        height: 1270px;
+                    }
+
+                    .tour3{
+                        margin-top: 2305px;
+                        height: 1424px;
+                    }
+                  }
+
+
+                 @media (max-width:1000px) {
+                    .banner {
+                        height: 440px;
+                    }
+
+                    }
+        
+
+                @media (max-width:600px) {
+
+
+                    .title1 {
+                        padding-top: 125px;
+                        font-size: 50px;
+                        padding-left: 26px;
+                    }
+
+                    .para1 {
+                        
+                        padding-top: 182px;
+                        
+                        padding-left: 40px;
+                        font-size: 14px;
+                        
+                    }
+
+                    .button1 {
+                        width: 170px;
+                        height: 30px;
+                        width: 135px;
+                        left: 40px;
+                        margin-top: 224px;
+                        position: absolute;
+                    }
+
+                    .button1 a {
+                        font-size: 10px !important;
+                    }
+                     .card {
+                        margin-bottom: 10px !important;
+                     }
+
+                    
+                }
+
+                @media screen and (min-width: 601px) and (max-width: 700px) {
+                    .title1 {
+                        padding-top: 153px;
+                        font-size: 50px;
+                        padding-left: 26px;
+                    }
+
+                    .para1 {
+                        
+                        padding-top: 215px;
+                        
+                        padding-left: 40px;
+                        font-size: 14px;
+                        
+                    }
+
+
+                    .button1 {
+                        width: 170px !important;
+                        height: 50px;
+                        left: 40px;
+                        margin-top: 260px;
+                        position: absolute;
+                    }
+
+                    .button1 a {
+                        font-size: 17px !important;
+                    }
+
+                    .card {
+                        margin-bottom: 10px !important;
+                     }
+                
+                }
+
+
+                @media screen and (min-width: 701px) and (max-width: 800px) {
+                    .title1 {
+                        padding-top: 165px;
+                        font-size: 65px;
+                        padding-left: 26px;
+                    }
+
+                    .para1 {
+                        padding-top: 240px;
+                        padding-left: 40px;
+                        font-size: 19px;
+                    }
+
+
+                    .button1 {
+                        width: 170px !important;
+                        height: 50px;
+                        left: 40px;
+                        margin-top: 301px;
+                        position: absolute;
+                    }
+
+                    .button1 a {
+                        font-size: 17px !important;
+                    }
+                    .card {
+                        margin-bottom: 10px !important;
+                     }
+                
+                }
+
+                @media screen and (min-width: 801px) and (max-width: 900px) {
+                    .title1 {
+                        padding-top: 190px;
+                        font-size: 80px;
+                        padding-left: 38px;
+                    }
+
+                    .para1 {
+                        padding-top: 286px;
+                        padding-left: 56px;
+                        font-size: 18px;
+                    }
+
+
+                    .button1 {
+                        width: 170px !important;
+                        height: 50px;
+                        left: 55px;
+                        margin-top: 350px;
+                        position: absolute;
+                    }
+                    .button1 a {
+                        font-size: 17px !important;
+                    }
+                    .card {
+                        margin-bottom: 10px !important;
+                     }
+                
+                }
+
+                @media screen and (min-width: 901px) and (max-width: 1000px) {
+                    .title1 {
+                        padding-top: 190px;
+                        font-size: 80px;
+                        padding-left: 38px;
+                    }
+
+                    .para1 {
+                        padding-top: 286px;
+                        padding-left: 56px;
+                        font-size: 18px;
+                    }
+
+
+                    .button1 {
+                        width: 170px !important;
+                        height: 50px;
+                        left: 55px;
+                        margin-top: 380px;
+                        position: absolute;
+                    }
+                    .button1 a {
+                        font-size: 17px !important;
+                    }
+                
+                }
+
+                @media screen and (min-width: 1001px) and (max-width: 1100px) {
+                    .title1 {
+                        padding-top: 220px;
+                        font-size: 80px;
+                        padding-left: 38px;
+                    }
+
+                    .para1 {
+                        padding-top: 337px;
+                        padding-left: 56px;
+                        font-size: 18px;
+                    }
+
+
+                    .button1 {
+                        width: 170px !important;
+                        height: 50px;
+                        left: 55px;
+                        margin-top: 432px;
+                        position: absolute;
+                    }
+                    .button1 a {
+                        font-size: 17px !important;
+                    }
+                
+                }
+
+                @media screen and (min-width: 1101px) and (max-width: 1223px) {
+                    .title1 {
+                        padding-top: 220px;
+                        font-size: 80px;
+                        padding-left: 38px;
+                    }
+
+                    .para1 {
+                        padding-top: 337px;
+                        padding-left: 56px;
+                        font-size: 18px;
+                    }
+
+
+                    .button1 {
+                        width: 170px !important;
+                        height: 50px;
+                        left: 55px;
+                        margin-top: 489px;
+                        position: absolute;
+                    }
+                    .button1 a {
+                        font-size: 17px !important;
+                    }
+                
+                }
+
+
+                  
+       
+
+       
